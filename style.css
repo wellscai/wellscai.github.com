@@ -1,0 +1,58 @@
+@media screen {
+		html {
+			background-color: green;
+		}
+		body {
+			font-family: 'Libre Baskerville', serif;
+			font-size: 20px;
+			color: #444;
+			background-color: #fafafa;
+			padding: 20px;
+		}
+		h1 {
+			font-family: 'Libre Baskerville', serif;
+			text-align: justify;
+		}
+		ul {
+			list-style: none;
+			margin-left: 0;
+			padding-left: 0;
+		}
+		a:link {
+			color: green;
+			text-decoration: none;
+		}
+		a:visited {
+			color: #8c3;
+			text-decoration: none;
+		}
+		a:hover,
+		a:focus {
+			color: pink;
+			text-decoration: none;
+			font-weight: bold;
+			font-family: Wingdings, Helvetica;
+		}
+		a:active {
+			color: green;
+			text-decoration: none;
+		}
+}
+
+@media screen and (min-width: 480px) {
+
+}
+
+@media screen and (min-width: 768px) {
+	body {
+			width: 80%;
+			margin: 10px auto;
+			}
+	li {
+			display:inline;
+	}
+}
+
+@media screen and (min-width: 992px) {
+
+}
